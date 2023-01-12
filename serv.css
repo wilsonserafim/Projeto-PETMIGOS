@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+body{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #60BDDF;
+  
+    
+}
+
+main.container{
+    width: 360px;
+    height: auto;
+    background: #60BDDF;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background: #2C87BF;
+    border-radius: 0px 0px 10px 10px;
+}
+nav#menu-h{
+    position: relative;
+    top: 5px;
+    
+}
+#menu-h{
+    background-color: #4b97b3;
+}
+
+#menu-h ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#menu-h ul li a:hover {
+    background-color: #2C87BF;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #2C87BF;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+}
+.tituloservicos{
+    position: relative;
+    top: 35px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+}
+
+#servicos{
+
+  
+    margin: auto;
+    position: relative;
+    top: 50px;
+    
+    border-radius: 20px;
+    display: grid;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+   
+  
+
+}
+.icone_img{
+    width: 80px;
+    position: relative;
+    top: 45px;
+    right: 30px;
+
+}
+a.link_menu{
+    position:relative;
+    left: 60px;
+    bottom: 30px;
+    font-size: 17px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
